@@ -1,0 +1,7 @@
+echo "# korit_07_html_css" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lui-die-lui/korit_07_html_css.git
+git push -u origin main

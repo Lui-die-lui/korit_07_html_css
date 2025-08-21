@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form 태그의 사용</title>
+  </head>
+  <body bgcolor="#5f5f5f">
+    <!-- 제출하면 로고로 넘어감 -->
+    <form action="../learning_log/Google_2015_logo.svg.webp" method="get" autocomplete="off">
+      <!-- (label+input)*2 -->
+      <label for="name">이름</label>
+      <input id="name" name="my-name" type="text"/>
+      <br />
+      <br />
+      <label for="age">나이</label>
+      <input id="age" name="my-age" type="number" />
+      <br /><br />
+      <!-- submit 으로 제출하면 form태그에 지정했던 곳으로 넘어감 -->
+      <button type="submit">제출</button>
+      <button type="reset">초기화</button>
+    </form>
+  </body>
+</html>
