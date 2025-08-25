@@ -1,0 +1,26 @@
+/* html {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  margin: 0;
+  /* padding: 0; */
+}
+
+div {
+  background-color: blueviolet;
+  /* height: 100%; */
+  height: 100vh;
+  line-height: 100vh;
+  /* t속성의 경우 상단 높이의 절반만큼만 반영하기 때문에
+  해당 값을 주게되면 중앙부에 텍스트가 위치하게 됨 */
+  text-align: center;
+  /* 해당 값으로 화면 정중앙에 텍스트 요소를 넣을 수 있음 
+  but 한줄 일때만 가능*/
+}
+
+div > div {
+  background-color: aquamarine;
+  height: 100%; /*부모 요소의 100%*/
+}

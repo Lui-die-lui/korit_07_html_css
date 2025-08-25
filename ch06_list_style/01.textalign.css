@@ -1,0 +1,22 @@
+/* 제목 부분까지 영항을 받음 */
+div {
+  /* left / right / center / justify */
+  /* text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.3em;
+  line-height: 2em;
+  text-indent: 1.5em; */
+}
+
+div > h1 {
+  text-align: center;
+}
+
+/* 제목 부분이 영향을 받지 않음 */
+div > p {
+  text-align: justify;
+  letter-spacing: 0.02em;
+  word-spacing: 0.3em;
+  line-height: 2em;
+  text-indent: 1.5em;
+}
