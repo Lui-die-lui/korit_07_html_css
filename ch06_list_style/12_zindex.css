@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  /* width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* div {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+div {
+  position: fixed;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  background-color: aqua;
+  line-height: 80px;
+  top: calc(50% - 40px); /*높이의 절반*/
+  left: calc(50% - 150px); /*넓이의 절반*/
+
+  /* 
+  이상의 부분은 특정 태그가 브라우저의 크기와 상관없이 정중앙에 위치하는 것을 담보하는 코드입니다.
+  */
+}
